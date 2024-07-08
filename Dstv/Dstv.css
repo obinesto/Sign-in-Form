@@ -1,6 +1,6 @@
 
 body{
-    background-image:url(/Assignments/MiniProjects/Dstv/backgroung-Image.jpg);
+    background-image:url(./backgroung-Image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -26,11 +26,13 @@ body{
     position: relative;
 }
 .mydstv{
-height: fit-content;
-width: fit-content;
-position: relative;
-bottom: 5rem;
-left: 7rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    bottom: 5rem;
+    left: 7rem;
 }
 
 img{
